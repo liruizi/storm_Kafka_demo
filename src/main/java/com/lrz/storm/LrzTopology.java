@@ -33,7 +33,6 @@ import com.lrz.storm.bolt.RedisStoreBolt;
 public class LrzTopology {
 	private static final Logger logger = LoggerFactory.getLogger(LrzTopology.class);
 	
-	
 	private static final String KAFKA_SPOUT_ID = "kafka_spout";
     private static final String KAFKA_ANALYS_BOLT_ID = "kafka_analysis_bolt";
     private static final String DATA_PROCES_BOLT_ID = "data_proces_bolt";
