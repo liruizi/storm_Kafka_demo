@@ -30,6 +30,7 @@ import com.lrz.storm.bolt.RedisStoreBolt;
  * @version:1.0.0
  * @Data:2018年11月6日 下午4:13:41
  */
+
 public class LrzTopology {
 	private static final Logger logger = LoggerFactory.getLogger(LrzTopology.class);
 	
